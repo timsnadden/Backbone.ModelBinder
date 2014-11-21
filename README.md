@@ -327,7 +327,7 @@ A converter function is passed 4 parameters.
 * model - this is more useful when you're dealing with calculated attributes
 * els - an array of the els that were bound to the converter
 
-If your binding to a read-only element like a `<div>` you'll just ignore the direction parameter - it's always ModelToView.
+If you're binding to a read-only element like a `<div>` you'll just ignore the direction parameter - it's always ModelToView.
 In most cases, you'll be able to ignore the attribute name and model parameters but they can be helpful in some situations discussed later.
 
 The Model parameter can be quite helpful in complicated situations.
