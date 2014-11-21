@@ -425,7 +425,7 @@ modelBinder.bind(this.model, this.el, bindings);
 ````
 
 <br>
-You could also extend the example above to be a bit more complicated.  Let's pretend the Model has an attribute called customerType and if customerType == 'residential' we want the address to enabled, otherwise we want it disabled.  We can handle this type of binding by leveraging both `converter` and `elAttribute`.  The example below shows how this would work.  When the Model.customerType is updated, the address input element's enabled attribute would be updated.
+You could also extend the example above to be a bit more complicated.  Let's pretend the Model has an attribute called customerType and if customerType == 'residential' we want the address to be enabled, otherwise we want it disabled.  We can handle this type of binding by leveraging both `converter` and `elAttribute`.  The example below shows how this would work.  When the Model.customerType is updated, the address input element's enabled attribute would be updated.
 
 ````
 var addressEnabledConverter = function(direction, value) { return value === 'residential'; };
