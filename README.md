@@ -444,7 +444,7 @@ You could also bind to an element's class property as shown in the example below
 
 ````
 <!-- The javascript -->
-var bindings = {gender: {selector: '#patientPicture',  elAttribute: 'class'}};
+var bindings = {gender: {selector: '#patientPic',  elAttribute: 'class'}};
 modelBinder.bind(this.model, this.el, bindings);
 ````
 
